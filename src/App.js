@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import Dinner from './dinner.js';
 
 function App() {
   return (
     <div className="App">
-      Hello teachers i am very thankful for such wonderful sessions. yaay!
-    </div>
+      <Dinner dishName="Chicken Biryani" sweetDish="Kheer" />
+      <Dinner dishName="Chicken karahi" sweetDish="gajar ka halwa" />
+      <Dinner dishName="manchorian" sweetDish="custard" />
+    </div>  
   );
 }
 
